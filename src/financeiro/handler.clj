@@ -2,16 +2,25 @@
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [cheshire.core :as json]
-            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
+            [financeiro.db :as db]
+            [financeiro.transacoes :as transacoes]
+            [ring.middleware.json :refer [wrap-json-body]]
+            [ring.middleware.defaults :refer [wrap-defaults api-defaults]]))
 
-(defn saldo-como-json []
-  {:headers {"Content-Type" "application/json; charset=utf-8"}
-   :body    (json/generate-string {:saldo 0})})
+(defn como-json [conteudo & [status]]
+  {:status  (or status 200)
+   :headers {"Content-Type" "application/json; charset=utf-8"}
+   :body    (json/generate-string conteudo)})
 
 (defroutes app-routes
            (GET "/" [] "Hello World")
-           (GET "/saldo" [] (saldo-como-json))
+           (GET "/saldo" [] (como-json {:saldo (db/saldo)}))
+           (POST "/transacoes" requisicao (if (transacoes/valida? (:body requisicao))
+                                            (-> (db/registrar (:body requisicao))
+                                                (como-json 201))
+                                            (como-json {:mensagem "Requisição inválida"} 422)))
            (route/not-found "Not Found"))
 
 (def app
-  (wrap-defaults app-routes site-defaults))
+  (-> (wrap-defaults app-routes api-defaults)
+      (wrap-json-body {:keywords? true :bigdecimals? true})))
