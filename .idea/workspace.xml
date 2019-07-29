@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d584f8b4-04c7-40e1-927c-5003ff7aff60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_json_0_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financeiro/db.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financeiro/transacoes.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unitarios/financeiro/transacoes_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummy/dummy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummy/dummy_02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/aceitacao/financeiro/filtros_aceitacao_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeiro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeiro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financeiro/db.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/financeiro/db.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/financeiro/handler.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/financeiro/handler.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/aceitacao/financeiro/auxiliares.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/aceitacao/financeiro/auxiliares.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/aceitacao/financeiro/saldo_aceitacao_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/aceitacao/financeiro/saldo_aceitacao_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/unitarios/financeiro/handler_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/unitarios/financeiro/handler_test.clj" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution>
@@ -29,82 +30,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/financeiro/handler.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/handler_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/aceitacao/financeiro/auxiliares.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/aceitacao/financeiro/saldo_aceitacao_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/financeiro/transacoes.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/transacoes_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/financeiro/db.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,93 +42,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test/financeiro/handler_test.clj" />
-        <option value="$PROJECT_DIR$/test/financeiro/saldo_aceitacao_test.clj" />
-        <option value="$PROJECT_DIR$/test/financeiro/aceitacao/saldo_aceitacao_test.clj" />
-        <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/test/unitarios/financeiro/handler_test.clj" />
-        <option value="$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj" />
-        <option value="$PROJECT_DIR$/src/financeiro/db.clj" />
-        <option value="$PROJECT_DIR$/src/financeiro/auxiliares.clj" />
-        <option value="$PROJECT_DIR$/test/aceitacao/financeiro/auxiliares.clj" />
-        <option value="$PROJECT_DIR$/test/aceitacao/financeiro/saldo_aceitacao_test.clj" />
-        <option value="$PROJECT_DIR$/test/unitarios/financeiro/transacoes_test.clj" />
-        <option value="$PROJECT_DIR$/src/financeiro/transacoes.clj" />
-        <option value="$PROJECT_DIR$/src/financeiro/handler.clj" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="927" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
-  </component>
+  <component name="ProjectId" id="1OfIzCwrtgJBZHIxioDaaduFFIS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="aceitacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="aceitacao" type="462c0819:PsiDirectoryNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unitarios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="financeiro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="financeiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -212,13 +55,19 @@
     <property name="cursive.last.file.extension./home/ccristovao/Projects/alura/clojure/financeiro/test" value="clj" />
     <property name="cursive.last.file.extension./home/ccristovao/Projects/alura/clojure/financeiro/test/aceitacao" value="clj" />
     <property name="cursive.last.file.extension./home/ccristovao/Projects/alura/clojure/financeiro/test/unitarios" value="clj" />
-    <property name="last_opened_file_path" value="$USER_HOME$/workspace/cashout-strategy" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace/adc-adapter" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="LeiningenProject" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -273,7 +122,9 @@
       <updated>1563239171876</updated>
       <workItem from="1563239176930" duration="8031000" />
       <workItem from="1563844976148" duration="5636000" />
-      <workItem from="1563929915083" duration="7267000" />
+      <workItem from="1563929915083" duration="7351000" />
+      <workItem from="1564362494402" duration="1812000" />
+      <workItem from="1564365929188" duration="8236000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando de clojure.test para midje">
       <created>1563242363303</created>
@@ -289,130 +140,37 @@
       <option name="project" value="LOCAL" />
       <updated>1563892331119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FIm do capitulo 12">
+      <created>1563970732130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563970732130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20934000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="927" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.42450765" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48910674" />
-      <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Leiningen" order="7" weight="0.32932165" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="REPL" order="10" side_tool="true" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mudando de clojure.test para midje" />
     <MESSAGE value="FIm do capitulo 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIm do capitulo 11" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/db_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/handler_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/financeiro/db.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/financeiro/auxiliares.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/aceitacao/financeiro/auxiliares.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/aceitacao/financeiro/saldo_aceitacao_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unitarios/financeiro/transacoes_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/financeiro/transacoes.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/financeiro/handler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="FIm do capitulo 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIm do capitulo 12" />
   </component>
   <component name="masterDetails">
     <states>

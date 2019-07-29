@@ -1,0 +1,5 @@
+curl -X POST -d '{"valor": 2700, "tipo": "despesa", "rotulos": ["computador"]}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor": 9200, "tipo": "despesa", "rotulos": ["salário"]}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor":20,"tipo":"despesa","rotulos":["livro","educação"]}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor":40,"tipo":"despesa","rotulos":["livro","educação"]}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor":400,"tipo":"despesa","rotulos":["curso","educação"]}' -H "Content-Type: application/json" localhost:3000/transacoes

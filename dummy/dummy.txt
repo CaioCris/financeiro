@@ -1,0 +1,3 @@
+curl -X POST -d '{"valor": 20, "tipo": "despesa"}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor": 700, "tipo": "despesa"}' -H "Content-Type: application/json" localhost:3000/transacoes
+curl -X POST -d '{"valor": 3000, "tipo": "receita"}' -H "Content-Type: application/json" localhost:3000/transacoes
